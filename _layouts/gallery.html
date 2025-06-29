@@ -13,19 +13,15 @@
         url('{{ page.header.overlay_image }}') center/cover no-repeat;
         height: 300px;
         margin-bottom: 2rem;
-      "><div class="title"><a href="{{ site.url }}">{{ page.title }}</a></div></div>
+      "><div class="title">{{ page.title }}</div></div>
     {% endif %}
 
     <main>
+      <a href="/">[back]</a>
+
       {{ content }}
 
-      {% for post in site.posts %}
-      <h2>{{ post.title }}</h2>
-      <p><em>{{ post.date | date: "%Y-%m-%d" }}</em></p>
-
-      {{ post.content }}
-
-      {% endfor %}
+      <a href="/">[back]</a>
     </main>
   </body>
 </html>

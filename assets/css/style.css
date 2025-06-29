@@ -49,3 +49,9 @@ pre, code {
     background-size: cover;
     background-position: center;
 }
+
+.title {
+    font-size: 32pt;
+    color: #50fa7b;
+    text-align: center;
+}
