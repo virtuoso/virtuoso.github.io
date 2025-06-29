@@ -1,25 +1,6 @@
-# Site settings
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme
-- jekyll-sitemap
-
-repository: virtuoso/virtuoso.github.io
 title: Gamedev Experiments
-email: alex@ash.works
 description: Making game tech from scratch
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://virtuoso.github.io/" # the base hostname & protocol for your site
-github_username: virtuoso
-
-keep_files: [ "/clap", "/clap/**", "/clap/**/**", "/clap/**/**/**" ]
-# defaults:
-#   -
-#     scope:
-#       path:            "assets/**/*.pdf"
-#     values:
-#       sitemap:         false
-
-# Build settings
+baseurl: ""
+url: "https://virtuoso.github.io/"
 markdown: kramdown
 highlighter: rouge
