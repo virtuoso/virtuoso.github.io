@@ -1,5 +1,8 @@
 ---
-layout: default
+header:
+  overlay_image: /assets/img/banner matrix.png
+  overlay_filter: rgba(0,0,0,0.3)
+layout: home
 ---
 
 # [Gamedev Experiments]({{ site.url }})
